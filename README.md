@@ -1,4 +1,3 @@
-````markdown
 # VCC Assignment 3 — Auto-Scaling from Local VM to GCP
 
 This project demonstrates how to monitor system resources on a local Ubuntu Virtual Machine and automatically trigger scaling on Google Cloud Platform (GCP) when CPU or memory usage exceeds 75%. The setup uses simple shell scripts and `gcloud` CLI commands to link the local environment with cloud infrastructure.
@@ -66,7 +65,6 @@ Create a local VM and implement a mechanism to monitor resource usage. Configure
    ```bash
    sudo apt update
    sudo apt install -y bc stress-ng
-````
 
 3. Copy both scripts (`monitor.sh` and `scale-gcp.sh`) into the VM and make them executable:
 
